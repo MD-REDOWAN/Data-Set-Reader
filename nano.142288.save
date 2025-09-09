@@ -1,0 +1,7 @@
+nano ~/.streamlit/config.toml
+
+
+
+mkdir -p ~/.streamlit
+echo '[server]' > ~/.streamlit/config.toml
+echo 'maxUploadSize = 5000' >> ~/.streamlit/config.toml
