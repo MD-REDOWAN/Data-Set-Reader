@@ -1,6 +1,6 @@
 import streamlit as st
 # Increase upload file limit to 500MB
-st.set_option("server.maxUploadSize", 500)
+# st.set_option("server.maxUploadSize", 500)
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
